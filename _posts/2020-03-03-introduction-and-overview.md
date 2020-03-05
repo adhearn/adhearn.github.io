@@ -4,7 +4,7 @@ title: "Day 0: Introduction and Project Overview (a.k.a. Hello World)"
 date: 2020-03-03
 categories:
 ---
-## My Story
+## My Background
 Every time I contemplate working on personal software projects, I almost always come back to writing a compiler. To date, the piece of software I'm most proud of is the Scheme -> x86-64 compiler I wrote as an undergraduate, teaching myself from the assignments for the P423 Compilers course, with help from the professor and grad student I was hoping to help with research. I also sat in on the weekly Programming Languages group presentation, and helped teach the undergraduate programming languages course after taking it.
 
 After graduating, however, I kind of gave up on those parts of programming. I was working as a new engineer at large tech company, which felt like a whole new world. In college, I had been writing compilers in Lisp, and now I was writing huge distributed systems in Java. I struggled a lot in that role, and found that it was almost impossible to motivate myself to work on personal coding projects. Instead, I mostly wanted to just get through the day. I eventually left, and found my love of programming again, mostly by reading about and attempting to implement programming langauges. Along the way, I picked up Javascript and hugely improved my Python, started a couple of my own companies, watched those companies fail, and eventually got a new job at a startup writing distributed systems once again (this time in Python instead of Java, which was a big improvement). Once again, I found it hard to stay focused on keeping up with new tech developments. The team and company were great, but I found myself looking for ways out of engineering and into something else, like product or people management.
@@ -14,7 +14,7 @@ Last week, I left that role. The day after I left, I found myself sitting at a c
 While idly searching for new roles last week, I stumbled upon something that it had never occurred to me to look for: a position writing compilers professionally. I had never thought that such a position was an actual possibility. I mean, intellectually, I knew jobs like that must exist, but I had never stopped to ask myself what things I would need to do to actually get such a role.
 
 ## Purpose of this Blog
-This blog, then, is an attempt to answer that question and then chart my journey as I do those things. I have 5 related reasons to blog about it:
+This blog, then, is an attempt to figure out what things I should do, then chart my journey as I do those things. I have 5 related reasons to blog about it:
 1. To keep myself accountable
 2. To force myself to do some upfront planning on what I'm trying to do, and to encourage regular reflection on what I have learned and accomplished recently
 3. To track my progress so I can look back later and remind myself how far I've come.
@@ -26,7 +26,7 @@ I'm still in the planning phases, but as of this second my plan is to spend the 
 
 I also want to work my way through the [Dragon Book][dragon-book-wiki]. Scheme has a lot of advantages as a langauge for writing compilers, but one weakness is that lexing and parsing are basically trivial - a first year CS student can pretty easily write a Scheme reader, but they would never have to because the built-in `read` function can do all the heavy lifting. As a result, lexing and parsing are huge gaps in my understanding. Additionally, most of my knowledge of the frontend for a compiler is focused on supporting a functional programming language. I don't yet know how C's different paradigm will affect things, but it will surely be different. I've also never written a runtime system, so I'll need to fill that fairly large gap in my knowledge as well. While I know a fair bit of type theory, I've never actually implemented a type checker of any complexity. All those things will be totally new. Even for the things I do know (fundamentals like register allocation or instruction selection), it's been a long time since I've thought about them in detail. And finally, my knowledge of C and x86 assembly are workable but rudimentary, so I expect I'll have to bulk up my knowledge there.
 
-Here's a ridiculously optimistic schedule to give a rough sense of things:
+Here's an optimistic schedule to give a rough sense of things:
 ### Already Done
 * Gathering some resources (books on C, x86 assembly, and compiler design)
 * Setting up a pleasant development environment for writing C on a MacBook (using Docker, which works excellently)
