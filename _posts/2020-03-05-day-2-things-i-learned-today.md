@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day 2: Progress Update and Interesting/Confusing Things I Learned Today
+title: "Day 2: Progress Update and Interesting/Confusing Things I Learned Today"
 date: 2020-03-05
 categories:
 published: true
