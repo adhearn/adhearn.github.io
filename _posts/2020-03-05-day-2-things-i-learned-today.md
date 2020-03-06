@@ -3,7 +3,7 @@ layout: post
 title: Day 2: Progress Update and Interesting/Confusing Things I Learned Today
 date: 2020-03-05
 categories:
-published: false
+published: true
 ---
 ## Day 2 Progress Update
 Finished Chapter 2 of the Dragon Book. As expected, once I passed lexing and parsing I was on much more familiar ground and moved a lot faster. C continues to be a challenge - things I can do effortlessly in Python or Java require research and debugging, but I'm starting to feel the rust fall away.

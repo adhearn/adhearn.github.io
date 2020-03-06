@@ -3,8 +3,7 @@ layout: post
 title: "Day 1: Interesting Things I Learned"
 date: 2020-03-04
 categories:
-published: false
-mathjax: true
+published: true
 ---
 
 ## Transforming Left-Recursive Grammars
