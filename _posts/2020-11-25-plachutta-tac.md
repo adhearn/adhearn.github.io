@@ -44,6 +44,7 @@ Functions will be implemented with 3 new operators:
 
 Here’s a sample program of a function that doubles its input:
 
+```
 param 5
 result = call double 1
 jump end
@@ -51,8 +52,11 @@ double: x = param
 y = x + x
 return y
 end: return result
+```
 
 Note that this introduces some potential complications. For example, consider the following implementation of the factorial function:
+
+```
 param 5
 result = call factorial 1
 jump end
@@ -65,6 +69,7 @@ res = n * factsub1
 return res
 basecase: return 1
 end: noop
+```
 
 If implemented naively, this function will always return 1! Because there is not currently any separate scoping for functions, n is going to be updated globally every time this function is called. Therefore, by the time we reach the line `res = n * factsub1`, n will always be 1.
 
