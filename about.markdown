@@ -4,15 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Hi there, I'm Alex! By day, I'm a data engineer; by night (and sometimes early morning) I'm a programming language enthusiast. These days, I mostly program in Python, but all the most beautiful programs I've ever seen have been in Scheme, which remains near and dear to my heart. I get most excited about elegant ways to efficiently represent powerful programming abstractions. Right now, my major personal project is Plachutta, which is both a language and an interpreter for that language, and I suspect most of my writing for the foreseeable future will be focused on what I learn as I develop Plachutta further. Stay tuned for more!
